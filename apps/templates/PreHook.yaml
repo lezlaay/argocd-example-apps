@@ -10,6 +10,6 @@ spec:
       containers:
       - name: sleep
         image: alpine:latest
-        command: ["echo", "pre-sync"]
+        command: ["echo", "Hello, I am a pre-sync hook message"]
       restartPolicy: Never
   backoffLimit: 0
