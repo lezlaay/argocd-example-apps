@@ -10,6 +10,6 @@ spec:
       containers:
       - name: sleep
         image: alpine:latest
-        command: ["echo", "post-sync"]
+        command: ["echo", "Hello, I am a post-sync hook message"]
       restartPolicy: Never
   backoffLimit: 0
